@@ -1,20 +1,35 @@
-# README
+# PopEstate Demo 🏠
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+MVP de plataforma inmobiliaria para gestión de propiedades.
 
-Things you may want to cover:
+## Stack
 
-* Ruby version
+- Ruby on Rails
+- PostgreSQL
+- HTML5
+- CSS
+- JavaScript
+- Git
 
-* System dependencies
+## Funcionalidades
 
-* Configuration
+✔ Crear propiedades
+✔ Listar propiedades
+✔ Editar propiedades
+✔ Eliminar propiedades
 
-* Database creation
+## Arquitectura
 
-* Database initialization
+Aplicación MVC utilizando Rails ActiveRecord.
 
+## Instalación
+
+bundle install
+
+rails db:create
+rails db:migrate
+
+rails server
 * How to run the test suite
 
 * Services (job queues, cache servers, search engines, etc.)
